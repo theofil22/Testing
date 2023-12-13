@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.2 (Python 3.11.2 on win32)" generated="20230415 17:28:09.797" rpa="false">
+<suite id="s1" name="Sedih" source="D:\eclips\sedih">
+<suite id="s1-s1" name="TestSuite" source="D:\eclips\sedih\TestSuite">
+<suite id="s1-s1-s1" name="MyTheFiveSuite" source="D:\eclips\sedih\TestSuite\MyTheFiveSuite.robot">
+<test id="s1-s1-s1-t1" name="Test Suite 1">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg timestamp="20230415 17:28:09.979" level="INFO">Opening browser 'chrome' to base url 'https://www.w3schools.com/'.</msg>
+<status status="PASS" starttime="20230415 17:28:09.979" endtime="20230415 17:28:13.258"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3</arg>
+</arguments>
+<msg timestamp="20230415 17:28:16.260" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20230415 17:28:13.259" endtime="20230415 17:28:16.260"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>//*[@id="search2"]</arg>
+<arg>HTML</arg>
+</arguments>
+<msg timestamp="20230415 17:28:16.260" level="INFO">Typing text 'HTML' into text field '//*[@id="search2"]'.</msg>
+<status status="PASS" starttime="20230415 17:28:16.260" endtime="20230415 17:28:16.322"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>10</arg>
+</arguments>
+<msg timestamp="20230415 17:28:26.324" level="INFO">Slept 10 seconds</msg>
+<status status="PASS" starttime="20230415 17:28:16.322" endtime="20230415 17:28:26.325"></status>
+</kw>
+<kw name="Press Key" library="SeleniumLibrary">
+<doc>*DEPRECATED in SeleniumLibrary 4.0.* use `Press Keys` instead.</doc>
+<arguments>
+<arg>//*[@id="search2"]</arg>
+<arg>\\13</arg>
+</arguments>
+<msg timestamp="20230415 17:28:26.326" level="WARN">Keyword 'SeleniumLibrary.Press Key' is deprecated. use `Press Keys` instead.</msg>
+<status status="PASS" starttime="20230415 17:28:26.325" endtime="20230415 17:28:26.552"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3</arg>
+</arguments>
+<msg timestamp="20230415 17:28:29.553" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20230415 17:28:26.552" endtime="20230415 17:28:29.553"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>//*[@id="main"]/p[7]/a</arg>
+</arguments>
+<msg timestamp="20230415 17:28:29.554" level="INFO">Clicking element '//*[@id="main"]/p[7]/a'.</msg>
+<status status="PASS" starttime="20230415 17:28:29.553" endtime="20230415 17:28:30.085"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3</arg>
+</arguments>
+<msg timestamp="20230415 17:28:33.087" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20230415 17:28:30.086" endtime="20230415 17:28:33.087"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>//*[@id="main"]/div[3]/p[2]/a</arg>
+</arguments>
+<msg timestamp="20230415 17:28:33.088" level="INFO">Clicking element '//*[@id="main"]/div[3]/p[2]/a'.</msg>
+<status status="PASS" starttime="20230415 17:28:33.087" endtime="20230415 17:28:34.060"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3</arg>
+</arguments>
+<msg timestamp="20230415 17:28:37.062" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20230415 17:28:34.060" endtime="20230415 17:28:37.062"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>//*[@id="3"]</arg>
+</arguments>
+<msg timestamp="20230415 17:28:37.063" level="INFO">Clicking element '//*[@id="3"]'.</msg>
+<status status="PASS" starttime="20230415 17:28:37.062" endtime="20230415 17:28:37.097"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>20</arg>
+</arguments>
+<msg timestamp="20230415 17:28:57.099" level="INFO">Slept 20 seconds</msg>
+<status status="PASS" starttime="20230415 17:28:37.098" endtime="20230415 17:28:57.099"></status>
+</kw>
+<status status="PASS" starttime="20230415 17:28:09.978" endtime="20230415 17:28:57.100" critical="yes"></status>
+</test>
+<test id="s1-s1-s1-t2" name="Test Suite 2">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg timestamp="20230415 17:28:57.102" level="INFO">Opening browser 'chrome' to base url 'https://www.w3schools.com/'.</msg>
+<status status="PASS" starttime="20230415 17:28:57.101" endtime="20230415 17:29:00.390"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3</arg>
+</arguments>
+<msg timestamp="20230415 17:29:03.391" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20230415 17:29:00.390" endtime="20230415 17:29:03.391"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>//*[@id="search2"]</arg>
+<arg>Python</arg>
+</arguments>
+<msg timestamp="20230415 17:29:03.392" level="INFO">Typing text 'Python' into text field '//*[@id="search2"]'.</msg>
+<status status="PASS" starttime="20230415 17:29:03.391" endtime="20230415 17:29:03.460"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>10</arg>
+</arguments>
+<msg timestamp="20230415 17:29:13.461" level="INFO">Slept 10 seconds</msg>
+<status status="PASS" starttime="20230415 17:29:03.461" endtime="20230415 17:29:13.461"></status>
+</kw>
+<kw name="Press Key" library="SeleniumLibrary">
+<doc>*DEPRECATED in SeleniumLibrary 4.0.* use `Press Keys` instead.</doc>
+<arguments>
+<arg>//*[@id="search2"]</arg>
+<arg>\\13</arg>
+</arguments>
+<msg timestamp="20230415 17:29:13.461" level="WARN">Keyword 'SeleniumLibrary.Press Key' is deprecated. use `Press Keys` instead.</msg>
+<status status="PASS" starttime="20230415 17:29:13.461" endtime="20230415 17:29:13.897"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3</arg>
+</arguments>
+<msg timestamp="20230415 17:29:16.899" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20230415 17:29:13.897" endtime="20230415 17:29:16.899"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>//*[@id="main"]/p[11]/a</arg>
+</arguments>
+<msg timestamp="20230415 17:29:16.900" level="INFO">Clicking element '//*[@id="main"]/p[11]/a'.</msg>
+<status status="PASS" starttime="20230415 17:29:16.899" endtime="20230415 17:29:17.846"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3</arg>
+</arguments>
+<msg timestamp="20230415 17:29:20.848" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20230415 17:29:17.846" endtime="20230415 17:29:20.848"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>//*[@id="main"]/div[3]/p[2]/a</arg>
+</arguments>
+<msg timestamp="20230415 17:29:20.848" level="INFO">Clicking element '//*[@id="main"]/div[3]/p[2]/a'.</msg>
+<status status="PASS" starttime="20230415 17:29:20.848" endtime="20230415 17:29:31.702"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3</arg>
+</arguments>
+<msg timestamp="20230415 17:29:34.704" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20230415 17:29:31.702" endtime="20230415 17:29:34.704"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>//*[@id="3"]</arg>
+</arguments>
+<msg timestamp="20230415 17:29:34.705" level="INFO">Clicking element '//*[@id="3"]'.</msg>
+<status status="PASS" starttime="20230415 17:29:34.704" endtime="20230415 17:29:34.744"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>20</arg>
+</arguments>
+<msg timestamp="20230415 17:29:54.745" level="INFO">Slept 20 seconds</msg>
+<status status="PASS" starttime="20230415 17:29:34.745" endtime="20230415 17:29:54.745"></status>
+</kw>
+<status status="PASS" starttime="20230415 17:28:57.100" endtime="20230415 17:29:54.745" critical="yes"></status>
+</test>
+<test id="s1-s1-s1-t3" name="Test Suite 3">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg timestamp="20230415 17:29:54.747" level="INFO">Opening browser 'chrome' to base url 'https://www.w3schools.com/'.</msg>
+<status status="PASS" starttime="20230415 17:29:54.746" endtime="20230415 17:29:59.214"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3</arg>
+</arguments>
+<msg timestamp="20230415 17:30:02.216" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20230415 17:29:59.214" endtime="20230415 17:30:02.216"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>//*[@id="search2"]</arg>
+<arg>C++</arg>
+</arguments>
+<msg timestamp="20230415 17:30:02.217" level="INFO">Typing text 'C++' into text field '//*[@id="search2"]'.</msg>
+<status status="PASS" starttime="20230415 17:30:02.216" endtime="20230415 17:30:02.281"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>10</arg>
+</arguments>
+<msg timestamp="20230415 17:30:12.282" level="INFO">Slept 10 seconds</msg>
+<status status="PASS" starttime="20230415 17:30:02.281" endtime="20230415 17:30:12.282"></status>
+</kw>
+<kw name="Press Key" library="SeleniumLibrary">
+<doc>*DEPRECATED in SeleniumLibrary 4.0.* use `Press Keys` instead.</doc>
+<arguments>
+<arg>//*[@id="search2"]</arg>
+<arg>\\13</arg>
+</arguments>
+<msg timestamp="20230415 17:30:12.284" level="WARN">Keyword 'SeleniumLibrary.Press Key' is deprecated. use `Press Keys` instead.</msg>
+<status status="PASS" starttime="20230415 17:30:12.283" endtime="20230415 17:30:12.661"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3</arg>
+</arguments>
+<msg timestamp="20230415 17:30:15.662" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20230415 17:30:12.661" endtime="20230415 17:30:15.662"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>//*[@id="main"]/p[6]/a</arg>
+</arguments>
+<msg timestamp="20230415 17:30:15.663" level="INFO">Clicking element '//*[@id="main"]/p[6]/a'.</msg>
+<status status="PASS" starttime="20230415 17:30:15.662" endtime="20230415 17:30:16.093"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3</arg>
+</arguments>
+<msg timestamp="20230415 17:30:19.093" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20230415 17:30:16.093" endtime="20230415 17:30:19.093"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>//*[@id="main"]/div[3]/p[2]/a</arg>
+</arguments>
+<msg timestamp="20230415 17:30:19.094" level="INFO">Clicking element '//*[@id="main"]/div[3]/p[2]/a'.</msg>
+<status status="PASS" starttime="20230415 17:30:19.093" endtime="20230415 17:30:33.243"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3</arg>
+</arguments>
+<msg timestamp="20230415 17:30:36.245" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20230415 17:30:33.244" endtime="20230415 17:30:36.245"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>//*[@id="3"]</arg>
+</arguments>
+<msg timestamp="20230415 17:30:36.246" level="INFO">Clicking element '//*[@id="3"]'.</msg>
+<status status="PASS" starttime="20230415 17:30:36.245" endtime="20230415 17:30:36.280"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>20</arg>
+</arguments>
+<msg timestamp="20230415 17:30:56.281" level="INFO">Slept 20 seconds</msg>
+<status status="PASS" starttime="20230415 17:30:36.280" endtime="20230415 17:30:56.281"></status>
+</kw>
+<status status="PASS" starttime="20230415 17:29:54.746" endtime="20230415 17:30:56.281" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20230415 17:28:09.832" endtime="20230415 17:30:56.282"></status>
+</suite>
+<status status="PASS" starttime="20230415 17:28:09.830" endtime="20230415 17:30:56.285"></status>
+</suite>
+<status status="PASS" starttime="20230415 17:28:09.817" endtime="20230415 17:30:56.288"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="3" fail="0">Critical Tests</stat>
+<stat pass="3" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="3" fail="0" id="s1" name="Sedih">Sedih</stat>
+<stat pass="3" fail="0" id="s1-s1" name="TestSuite">Sedih.TestSuite</stat>
+<stat pass="3" fail="0" id="s1-s1-s1" name="MyTheFiveSuite">Sedih.TestSuite.MyTheFiveSuite</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20230415 17:28:26.326" level="WARN">Keyword 'SeleniumLibrary.Press Key' is deprecated. use `Press Keys` instead.</msg>
+<msg timestamp="20230415 17:29:13.461" level="WARN">Keyword 'SeleniumLibrary.Press Key' is deprecated. use `Press Keys` instead.</msg>
+<msg timestamp="20230415 17:30:12.284" level="WARN">Keyword 'SeleniumLibrary.Press Key' is deprecated. use `Press Keys` instead.</msg>
+</errors>
+</robot>
